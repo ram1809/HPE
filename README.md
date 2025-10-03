@@ -46,8 +46,7 @@ This work provides the perception layer for mobile robots to navigate safely and
 
 ```bash
 # Clone the repository
-git clone https://github.com/ram1809/3D-pose-estimator.git
-
+git clone https://github.com/ram1809/HPE.git
 # Navigate to the project directory
 cd 3D-pose-estimator
 
