@@ -1,0 +1,11 @@
+import "Calibration.idsl";
+
+Component Calibration_camera
+{
+    Communications
+    {
+        requires Calibration;
+    };
+    language python;
+};
+

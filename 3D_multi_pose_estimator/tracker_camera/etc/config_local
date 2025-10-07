@@ -1,0 +1,14 @@
+# Proxies for required interfaces
+PoseProxy = pose:tcp -h 127.0.0.1 -p 10101
+#PoseProxy = pose:tcp -h 192.168.88.42 -p 10101
+
+
+
+Ice.Timeout=1
+
+Ice.Warn.Connections=0
+Ice.Trace.Network=0
+Ice.Trace.Protocol=0
+
+
+

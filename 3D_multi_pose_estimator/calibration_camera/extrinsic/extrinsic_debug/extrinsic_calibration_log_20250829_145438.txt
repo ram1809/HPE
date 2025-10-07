@@ -1,0 +1,53 @@
+
+=== STEREO EXTRINSIC CALIBRATION - 20250829_145438 ===
+Loaded intrinsic parameters for Cam0
+Camera Matrix (Cam0):
+[[339.97453966   0.         324.33564882]
+ [  0.         340.07448898 240.29491825]
+ [  0.           0.           1.        ]]
+Distortion Coeffs (Cam0):
+[-3.34258535e-01  1.41850189e-01 -9.92751744e-05 -9.30233392e-04
+ -2.93734972e-02]
+Loaded intrinsic parameters for Cam1
+Camera Matrix (Cam1):
+[[339.97453966   0.         324.33564882]
+ [  0.         340.07448898 240.29491825]
+ [  0.           0.           1.        ]]
+Distortion Coeffs (Cam1):
+[-3.34258535e-01  1.41850189e-01 -9.92751744e-05 -9.30233392e-04
+ -2.93734972e-02]
+Found 4 image pairs
+
+Processing pair 1/4: Cam0_image_000.jpg & Cam1_image_000.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: Cam0_image_000.jpg
+
+Processing pair 2/4: Cam0_image_001.jpg & Cam1_image_001.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: Cam0_image_001.jpg
+
+Processing pair 3/4: Cam0_image_002.jpg & Cam1_image_002.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: Cam0_image_002.jpg
+
+Processing pair 4/4: Cam0_image_003.jpg & Cam1_image_003.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: Cam0_image_003.jpg
+
+Performing stereo calibration with 4 tag matches...
+Image size: (640, 480)
+Stereo calibration complete
+RMS error: 0.1445678767953453
+Rotation matrix:
+[[ 0.7042144   0.50042698 -0.50364166]
+ [-0.48585283  0.85692661  0.1721157 ]
+ [ 0.51771528  0.12348937  0.84659392]]
+Translation vector:
+[[-0.01565151]
+ [ 0.00026794]
+ [ 0.00365592]]
+Computing rectification parameters...
+Valid ROI (Left): (0, 0, 0, 0)
+Valid ROI (Right): (0, 0, 0, 0)
+[SUCCESS] Stereo extrinsic calibration completed
+ Saved /home/arptracker/rmunusamy/human_tracker_MSC/human_tracker/calibration_camera/extrinsic/stereo_extrinsics.npz

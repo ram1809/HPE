@@ -1,0 +1,14 @@
+# Proxies for required interfaces
+#CalibrationProxy = calibration:tcp -h localhost -p 10101
+#CalibrationProxy = calibration:tcp -h 192.168.88.104 -p 10102
+CalibrationProxy = calibration:tcp -h 127.0.0.1 -p 10102
+
+
+Ice.MessageSizeMax=2020202020
+
+Ice.Warn.Connections=0
+Ice.Trace.Network=0
+Ice.Trace.Protocol=0
+
+
+

@@ -1,0 +1,13 @@
+# Endpoints for implements interfaces
+Calibration.Endpoints=tcp -p 10102
+
+
+
+Ice.MessageSizeMax=202020202
+
+Ice.Warn.Connections=0
+Ice.Trace.Network=0
+Ice.Trace.Protocol=0
+
+
+

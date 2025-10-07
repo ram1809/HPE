@@ -1,0 +1,129 @@
+
+=== STEREO EXTRINSIC CALIBRATION - 20250829_170724 ===
+Loaded intrinsic parameters for Cam0
+Camera Matrix (Cam0):
+[[339.97453966   0.         324.33564882]
+ [  0.         340.07448898 240.29491825]
+ [  0.           0.           1.        ]]
+Distortion Coeffs (Cam0):
+[-3.34258535e-01  1.41850189e-01 -9.92751744e-05 -9.30233392e-04
+ -2.93734972e-02]
+Loaded intrinsic parameters for Cam1
+Camera Matrix (Cam1):
+[[339.97453966   0.         324.33564882]
+ [  0.         340.07448898 240.29491825]
+ [  0.           0.           1.        ]]
+Distortion Coeffs (Cam1):
+[-3.34258535e-01  1.41850189e-01 -9.92751744e-05 -9.30233392e-04
+ -2.93734972e-02]
+Found 21 image pairs
+
+Processing pair 1/21: image_000.jpg & image_000.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_000.jpg
+
+Processing pair 2/21: image_001.jpg & image_001.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_001.jpg
+
+Processing pair 3/21: image_002.jpg & image_002.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_002.jpg
+
+Processing pair 4/21: image_003.jpg & image_003.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_003.jpg
+
+Processing pair 5/21: image_004.jpg & image_004.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_004.jpg
+
+Processing pair 6/21: image_005.jpg & image_005.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_005.jpg
+
+Processing pair 7/21: image_006.jpg & image_006.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_006.jpg
+
+Processing pair 8/21: image_007.jpg & image_007.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_007.jpg
+
+Processing pair 9/21: image_008.jpg & image_008.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_008.jpg
+
+Processing pair 10/21: image_009.jpg & image_009.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_009.jpg
+
+Processing pair 11/21: image_010.jpg & image_010.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_010.jpg
+
+Processing pair 12/21: image_011.jpg & image_011.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_011.jpg
+
+Processing pair 13/21: image_012.jpg & image_012.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_012.jpg
+
+Processing pair 14/21: image_013.jpg & image_013.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_013.jpg
+
+Processing pair 15/21: image_014.jpg & image_014.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_014.jpg
+
+Processing pair 16/21: image_015.jpg & image_015.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_015.jpg
+
+Processing pair 17/21: image_016.jpg & image_016.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_016.jpg
+
+Processing pair 18/21: image_017.jpg & image_017.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_017.jpg
+
+Processing pair 19/21: image_018.jpg & image_018.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_018.jpg
+
+Processing pair 20/21: image_019.jpg & image_019.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_019.jpg
+
+Processing pair 21/21: image_020.jpg & image_020.jpg
+  Detected 1 tags in Cam0, 1 tags in Cam1
+[OK] Matched 1 tags in pair: image_020.jpg
+
+Performing stereo calibration with 21 tag matches...
+Image size: (640, 480)
+Stereo calibration complete
+RMS error: 0.1111841702884086
+Rotation matrix:
+[[ 0.70815047  0.49992163 -0.49859931]
+ [-0.49313642  0.8555832   0.15746063]
+ [ 0.50531117  0.13437166  0.85241122]]
+Translation vector:
+[[-0.01625745]
+ [ 0.00101636]
+ [ 0.00539751]]
+Computing rectification parameters...
+Valid ROI (Left): (0, 0, 0, 0)
+Valid ROI (Right): (0, 0, 0, 0)
+[SUCCESS] Stereo extrinsic calibration completed
+ Saved /home/arptracker/rmunusamy/human_tracker_MSC/human_tracker/calibration_camera/extrinsic/stereo_extrinsics.npz
+Could not generate 3D visualization: Unknown projection '3d'
+Generating test rectification...
+✅ Test rectification saved to /home/arptracker/rmunusamy/human_tracker_MSC/human_tracker/calibration_camera/extrinsic/extrinsic_debug
+
+=== EXTRINSIC CALIBRATION PROCESS COMPLETED ===
+Log saved to: /home/arptracker/rmunusamy/human_tracker_MSC/human_tracker/calibration_camera/extrinsic/extrinsic_debug/extrinsic_calibration_log_20250829_170724.txt
+Debug images saved to: /home/arptracker/rmunusamy/human_tracker_MSC/human_tracker/calibration_camera/extrinsic/extrinsic_debug
+Calibration data saved to: /home/arptracker/rmunusamy/human_tracker_MSC/human_tracker/calibration_camera/extrinsic/stereo_extrinsics.npz

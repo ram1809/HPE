@@ -1,0 +1,11 @@
+import "Pose.idsl";
+
+Component tracker_camera
+{
+    Communications
+    {
+        requires Pose;
+    };
+    language python;
+};
+

@@ -1,0 +1,11 @@
+import "Pose.idsl";
+
+Component tracker_receiver
+{
+    Communications
+    {
+        implements Pose;
+    };
+    language python;
+};
+

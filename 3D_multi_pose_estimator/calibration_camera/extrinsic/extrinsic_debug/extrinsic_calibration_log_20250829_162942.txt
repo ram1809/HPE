@@ -1,0 +1,19 @@
+
+=== STEREO EXTRINSIC CALIBRATION - 20250829_162942 ===
+Loaded intrinsic parameters for Cam0
+Camera Matrix (Cam0):
+[[339.97453966   0.         324.33564882]
+ [  0.         340.07448898 240.29491825]
+ [  0.           0.           1.        ]]
+Distortion Coeffs (Cam0):
+[-3.34258535e-01  1.41850189e-01 -9.92751744e-05 -9.30233392e-04
+ -2.93734972e-02]
+Loaded intrinsic parameters for Cam1
+Camera Matrix (Cam1):
+[[339.97453966   0.         324.33564882]
+ [  0.         340.07448898 240.29491825]
+ [  0.           0.           1.        ]]
+Distortion Coeffs (Cam1):
+[-3.34258535e-01  1.41850189e-01 -9.92751744e-05 -9.30233392e-04
+ -2.93734972e-02]
+[ERROR] No images found in one or both camera folders
