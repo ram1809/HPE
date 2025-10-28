@@ -99,14 +99,6 @@ The models are trained using a custom dataset generated with the self-supervised
     
 Model Training
 The training process is divided into two stages:
-a) Training the Skeleton Matching Network (GNN)
-
-cd skeleton_matching/
-python3 train_skeleton_matching.py --trainset /path/to/train_paths.txt --devset /path/to/dev_paths.txt
-
-b) Training the Pose Estimator Network (MLP)
-cd pose_estimator/
-python3 train_pose_estimator.py --trainset /path/to/train_paths.txt --devset /path/to/dev_paths.txt
 
 Testing and Evaluation
 a) Metrics
